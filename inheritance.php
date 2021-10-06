@@ -1,5 +1,4 @@
 <?php
-
 class Fruits{
 
     public $name;
@@ -27,8 +26,8 @@ class Mango extends Fruits{
 
 
 $mango = new Mango;
- $mango->setName('my mango');
- echo $mango->name;
+$mango->setName('my mango');
+echo $mango->name;
 
 
 

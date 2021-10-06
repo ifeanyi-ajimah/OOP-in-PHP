@@ -5,10 +5,13 @@ final class MyClass{
 }
 
 
-//this code will throw an error
-    // class AnotherClass extends MyClass{
-    // }
-//ie to say that classes defined as final, can not be extended
+    //this code will throw an error
+
+// class AnotherClass extends MyClass{
+
+// }
+
+    //ie to say that classes defined as final, can not be extended
 
 
 
@@ -46,17 +49,6 @@ $toyota->price();
 //PHP final keyword : prevents inheritance of a class
 //ie, final keyword prevents a class from being inherited. 
 //final key word also prevents inherited methods from being overriden. 
-
-
-
-
-
-
-
-
-
-
-
 
 ?>
 

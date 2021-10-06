@@ -12,7 +12,7 @@ class User{
 
 }
 
-  //private field can be accessed by the object of the class.
+//private field can be accessed by the object of the class.
 //   $user = new User;
 //   echo $user->getPass();
 
@@ -21,7 +21,7 @@ class User{
      function __construct(){
          echo $this->password; //can not echo or access a private field since it is an extention of the User class
      }
-
+     
   }
 
   $admin = new Admin;
@@ -29,16 +29,11 @@ class User{
   
   echo $admin->getPass();
 
+  //private fields or methods:  only current class will have access to it (best encapsulation)
 
+  // protected fields or methods :  only the current class and subclass( extended class ) has access to it (moderate encapsulation)
 
-//private fields or methods:  only current class will have access to it (best encapsulation)
-
-// protected fields or methods :  only the current class and subclass( extended class ) has access to it (moderate encapsulation)
-
-//public : any class can refer to the field or call the method.
-
-
-
+  //public : any class can refer to the field or call the method.
 
 
 

@@ -21,7 +21,6 @@ class NewBook extends Book {
 }
 
 
-
 class AnotherBook extends Book {
 
     public function author()

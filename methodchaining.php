@@ -37,15 +37,3 @@ echo $bill->dinner(2)->dessert(2)->coldDrink(2)->bills;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
