@@ -69,7 +69,6 @@ echo User::$number;
 //   public function __construct() {
 //     self::welcome();
 //   }
-
 // }
 
 // new greeting();

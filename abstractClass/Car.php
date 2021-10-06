@@ -8,8 +8,6 @@ abstract Class Car{
 
     abstract public function calculateTankArea();
 
-
-
 }
 
 
